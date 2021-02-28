@@ -4,16 +4,19 @@ import pandas as pd
 def catbind(a, b):
     """
     Concatenates two pandas categoricals.
+
     Parameters
     ----------
     a : pandas.core.arrays.categorical.Categorical
       A pandas categorical.
     b : pandas.core.arrays.categorical.Categorical
       A pandas categorical that you wish to concatenate to a.
+
     Returns
     -------
     pandas.core.arrays.categorical.Categorical
       The new concatenated pandas categorical.
+
     Examples
     --------
     >>> from pypkgs import pypkgs
